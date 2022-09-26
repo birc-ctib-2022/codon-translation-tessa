@@ -8,8 +8,11 @@ from codons import (
 def test_split_codons() -> None:
     """Testing split_codons()."""
     assert split_codons("aaa") == ['aaa']
+        #goes from string to list 
     assert split_codons("aaaccc") == ['aaa', 'ccc']
+        #goes from string to list 
     assert split_codons("aaacccggg") == ['aaa', 'ccc', 'ggg']
+        #goes from string to list 
 
     # Not a multiple of three
     assert split_codons("a") is None
