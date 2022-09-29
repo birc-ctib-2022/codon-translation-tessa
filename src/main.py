@@ -97,7 +97,7 @@ if __name__ == '__main__':
             #print("Feature not implemented yet.", file=sys.stderr)
             #sys.exit(1)
             infile= open(sys.argv[1], "r")
-            outfile= open(sys,argv[1], "w")
+            outfile= open(sys.argv[2], "w")
         case _:
             # more than two arguments; that is an error
             print("Too many arguments.", file=sys.stderr)
